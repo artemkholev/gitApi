@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: gray;
+  padding: 5px;
+  color: white;
+  & > .links {
+    margin: 15px;
+    & > .linkHome {
+      margin-right: 5px;
+    }
+  }
+}
