@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom"
-import { HomePage } from "./pages/HomePage"
-import { FavouritsPage } from "./pages/FavouritsPage"
+import { HomePage } from "./pages/HomePage/HomePage"
+import { FavouritsPage } from "./pages/FavouritsPage/FavouritsPage"
 import { Navigation } from "./components/Navigations/Navigation"
 
 function App() {
