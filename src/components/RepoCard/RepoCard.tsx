@@ -25,7 +25,7 @@ export function RepoCard({ repo }: { repo: IRepo }) {
   return (
     <NavLink className={style.link} to={repo.html_url} target="_blank">
       <div className={style.container}>
-        <h2>{repo.full_name}</h2>
+        <h5>{repo.full_name}</h5>
         <p>
           Forks: <span style={{marginRight: '2px', fontWeight: "bold"}}>{repo.forks}</span>
           Watchers: <span style={{fontWeight: "bold"}}>{repo.watchers}</span>
