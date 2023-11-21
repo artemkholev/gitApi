@@ -4,8 +4,6 @@ import { FavouritsPage } from "./pages/FavouritsPage/FavouritsPage"
 import { Navigation } from "./components/Navigations/Navigation"
 
 function App() {
-
-
   return (
     <>
       <Navigation/>
