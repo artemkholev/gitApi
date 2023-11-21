@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IRepo } from "../../models/models";
 import style from "./RepoCard.module.scss";
 import { NavLink } from "react-router-dom";
