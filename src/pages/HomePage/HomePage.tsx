@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLazyGetUserReposQuery, useSearchUsersQuery } from "../../store/github/github.api";
 import style from "./HomePage.module.scss"
 import { useDebounce } from "../../hooks/debounce";

@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./FavouritsPage.module.scss"
 import { useAppSelector } from "../../hooks/redux";
 
