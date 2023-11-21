@@ -29,8 +29,8 @@ export function RepoCard({ repo }: { repo: IRepo }) {
         <p>
           Forks: <span style={{marginRight: '2px', fontWeight: "bold"}}>{repo.forks}</span>
           Watchers: <span style={{fontWeight: "bold"}}>{repo.watchers}</span>
-          <p>{ repo?.description }</p>
         </p>
+        <p>{repo?.description}</p>
         {!isFav && <button
           style={{ background: 'yellow', padding: "10px", borderRadius: "5px" }}
           onClick={addToFavourite}
