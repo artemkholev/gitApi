@@ -4,7 +4,7 @@ import style from "./Navigation.module.scss"
 
 export function Navigation() {
   return (
-    <div className={style.container}>
+    <div className={style.containerHeader}>
       <h3>Github Search</h3>
 
       <span className={style.links}>
